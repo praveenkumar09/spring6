@@ -10,6 +10,12 @@ import praveen.springframework.spring6_webapp.repositories.AuthorRepository;
 import praveen.springframework.spring6_webapp.repositories.BookRepository;
 import praveen.springframework.spring6_webapp.repositories.PublisherRepository;
 
+
+/**
+ * Created by TP, Spring Guru
+ * Component : Spring Context to detect that and pick it up
+ * Command Line Runner : Interface provided by spring boot, detects this type of component on the class path to pick it up and execute the run method
+ */
 @Component
 public class BootstrapData implements CommandLineRunner {
 

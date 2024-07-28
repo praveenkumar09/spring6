@@ -8,6 +8,8 @@ import java.util.Set;
 
 /**
  *  Created by TP, Spring Guru
+ *  Persistence Layer - JPA
+ *  Jakarta persistence - Tells JPA this is going to be an entity persisted to Database
  */
 @Entity
 public class Author {
